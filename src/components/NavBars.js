@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Container, Image, Nav, Navbar } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { actionLogoutSyn } from '../redux/actions/actionLogin';
+import { actionLogoutAsyn } from '../redux/actions/actionLogin';
 
 const NavBars = () => {
   const dispatch = useDispatch()
@@ -20,7 +20,7 @@ const NavBars = () => {
            </Nav>
         </Container>
         <Nav>
-             <Button variant="outline-primary" onClick={() => dispatch(actionLogoutSyn())}>
+             <Button variant="outline-primary" onClick={() => dispatch(actionLogoutAsyn())}>
                  <Image  width="25%" src="https://res.cloudinary.com/danimel/image/upload/v1635784501/login_1_p33a7m.png" alt="" />
              </Button>
         </Nav>

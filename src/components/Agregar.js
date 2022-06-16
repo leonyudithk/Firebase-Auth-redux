@@ -30,8 +30,6 @@ const Agregar = () => {
 
     return (
         <div>
-
-
             <Form onSubmit={handleSubmit} style={{ margin: '5%', marginLeft: '10%', marginRight: '10%' }}>
                 <h1 style={{ textAlign: 'center', color: 'blue' }}>Agendar cita con el Nutricionista</h1>
                 <hr />

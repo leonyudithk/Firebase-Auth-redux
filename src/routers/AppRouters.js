@@ -10,7 +10,6 @@ import { PublicRouter } from './PublicRouter';
 const AppRouters = () => {
 
     const [cheking, setCheking] = useState(true)
-
     const [isLoggedIn, setIsLoggedIn] =useState(false)
 
     useEffect(()=>{
